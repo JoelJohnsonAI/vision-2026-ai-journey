@@ -1,0 +1,39 @@
+# ==============================
+# DAY 1 — SETUP TEST
+# ==============================
+
+print("Hello, Vision 2026!")
+print("Python environment is working successfully.")
+
+# ==============================
+# DAY 2 — PYTHON BASICS
+# ==============================
+
+# -------- Program 1: Simple Calculator --------
+num1 = 10
+num2 = 5
+
+sum_result = num1 + num2
+difference = num1 - num2
+
+print("\n--- Calculator Program ---")
+print("Sum:", sum_result)
+print("Difference:", difference)
+
+# -------- Program 2: User Input --------
+print("\n--- User Input Program ---")
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+
+print("Hello", name)
+print("You are", age, "years old")
+
+# -------- Program 3: Simple Interest Calculator --------
+print("\n--- Simple Interest Calculator ---")
+principal = 1000
+rate = 5
+time = 2
+
+interest = (principal * rate * time) / 100
+
+print("Simple Interest is:", interest)
